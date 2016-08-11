@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07947CA3DAA2AF8F718D2A20596C3D6E /* NSDateFormatter+EasyMappingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3180C26F8469C64D788C2E8A0FA645 /* NSDateFormatter+EasyMappingAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0A03970522B15263B38698A38E9A0257 /* Pods-Top Regions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 795ECCC39D856C56910D347D5FDC69A1 /* Pods-Top Regions-dummy.m */; };
+		0AC2DD94FB10D1F34BEAD250C36C623C /* EKRelationshipMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B7F37ADCD1E606FD1E239E6BD697C8A /* EKRelationshipMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0ED3A0E8B4D044F85B6EAAA8781F24D3 /* EKObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2C2730B000A4D4DD57AEEEAC8D971 /* EKObjectMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13D1C4C1D5E3A5406B10A6C127C904FE /* NSArray+FlattenArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 520AFEB9035ABC7EB6E26C5B1DD4CCA2 /* NSArray+FlattenArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		19649882582AA89D75B6AF38E9EE8CE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07389E2A49322AA4B20E3817DD9B326 /* Foundation.framework */; };
+		19E6269A73F4031A7B578CE49D06D485 /* EKRelationshipMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC52489D52AB93CBED310B29C20EFCF /* EKRelationshipMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D5B1427310E9B2CE643309DD319E5EC /* EKManagedObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1027D9CD170C1A285F26255376696AF6 /* EKManagedObjectMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		23750C979CFAAC1E51413C449213B8C3 /* EKPropertyMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 161BB79926138FE556C3F27D1463D56E /* EKPropertyMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		277037C3A15C8F95FAC8C6DADE2FB347 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F62877F6F8B2EC922EE9414A5FFAFFC1 /* CoreData.framework */; };
+		2B7A6B69B42BD8ECF847953771874867 /* EasyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 18458186062D655E29F860DE0C6A0415 /* EasyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C084B6D55C046E798AB241DC1BC2BAE /* EKManagedObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F5AE9057A9609D85DBDDA20F977D92 /* EKManagedObjectModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		343F854FFEEEE0D400795E65BC4C338D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07389E2A49322AA4B20E3817DD9B326 /* Foundation.framework */; };
+		3732BD924AE19CB68A24BBEB231DB14C /* EKMappingBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1274B583E6CA10C49E5846B267932FBD /* EKMappingBlocks.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		398EC78FBB8D8D805A22EAB570114780 /* EKMappingBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = 539FC80F95D5E0194F914DB5789D0E8F /* EKMappingBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C659E610C5A5D4D1740F90516B6CF6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07389E2A49322AA4B20E3817DD9B326 /* Foundation.framework */; };
+		4FD8CC75CC08FE908921E920418E4126 /* EKObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B55C73D8E2C057A47EC174E3341109 /* EKObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55B1E6A6AA6C4E5DED0DBD1BB8953DE5 /* EKSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA205753EC3B68BFB41F729E0B051FA /* EKSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A7926399E0E308B2835A5A4B8024171 /* EKManagedObjectMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5C044D31C87F50B38B9A0CA3860B13 /* EKManagedObjectMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6521154479E63E7EF99BC9D05E8B3E5A /* EKPropertyHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AE75B76640180CF62BF45B6746929E /* EKPropertyHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8CD994663694A4CE2ABB0A78103D6A /* NSDateFormatter+EasyMappingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BD75A1CEA259C2D88DC12879E6D9B1D7 /* NSDateFormatter+EasyMappingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AC6B2BB0AD0E0E6BDEB1F056243B147 /* Pods-Top RegionsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2E124B6CF82464635D2BC86E8C9AA /* Pods-Top RegionsTests-dummy.m */; };
+		7E6AB984CBB7AC131AF92452C44FC24D /* EKPropertyMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CEC7A613BF83B5CBBC1BB7E4C557242 /* EKPropertyMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FD47E2B497C779962E6EFD62E93ABBF /* EKPropertyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A02E690C9E4F3CF68F0D0E01B8FAF2 /* EKPropertyHelper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		835D10F8053E11933BCCA1B1E13771AE /* EKSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A57F597F85066AE7AD356210E8958A6 /* EKSerializer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		84D1B7587986132BB1A8A395E8DA8F91 /* EKMappingProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E20B4033AF48174F385F5FD6549516DE /* EKMappingProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A06823BB6BC18547807820D6D2D9058 /* EKMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BA27EF0B067E09B1F04118EBEFD409A4 /* EKMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		91D23DFE1E3CF67C7922E82DB58A43F0 /* EasyMapping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2558EA15289DC1E00654F0D849FC12B /* EasyMapping-dummy.m */; };
+		99285B90E8E2E708D8376FB6AF45B2EC /* EKCoreDataImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E12683CAB3AFAD0F803F350A6E11E8 /* EKCoreDataImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F77B635DEDE874499C446EA77600D83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D07389E2A49322AA4B20E3817DD9B326 /* Foundation.framework */; };
+		AB5298F088EA363A93562E66521D8C78 /* EKCoreDataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 498E01C41D018FB2F9358DE1177596A0 /* EKCoreDataImporter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AE13EC81DAD45D89C56E7B8121F28603 /* EKManagedObjectModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CCD1B9F457E020800F95E37D877DC9F /* EKManagedObjectModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B75CC71A9FE31FEC993EAA6DAB0F33F3 /* Pods-Top RegionsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 497144AC84E7F9F255AA138AF3BF5522 /* Pods-Top RegionsUITests-dummy.m */; };
+		C8469E9116AD459E62ADC4BC3405022C /* EKManagedObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = F63718DA51B10F9D8C0075D81A6E92B9 /* EKManagedObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA6D9BA11A93FFC713EDD6987AF9162B /* EKManagedObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = E52EA91F94361553A288B7B6996E116B /* EKManagedObjectMapping.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F00EA86C50B2FD68DA9E253777E6A4AA /* EKMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = DE838C3BEB44C89B5106CD93B06FC9B0 /* EKMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7925AC78D37B79AD4999362E01F3F43 /* NSArray+FlattenArray.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D46735586E7FD4E0426F27848FEBDC /* NSArray+FlattenArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F931B6634F196BAF1B8FEE45F5D03BC5 /* EKObjectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F39A5E0943870FC6851BF7C25AA0BA8A /* EKObjectModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FBDCBE90303F2F06337BCC99FD131C95 /* EKObjectMapping.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BCF36669D6E987B1A5E32F63210B0A8 /* EKObjectMapping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A2BD121AAF8056ED0BB91EE886190AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6775B27F6655DDE6DFBA1564939A3FF;
+			remoteInfo = EasyMapping;
+		};
+		C6A56429D6335E2A45A6E5F435D75927 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6775B27F6655DDE6DFBA1564939A3FF;
+			remoteInfo = EasyMapping;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024A2FD98D0E5772563E3EA31E561E18 /* Pods-Top Regions-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Top Regions-acknowledgements.plist"; sourceTree = "<group>"; };
+		096FAD949C9E9CACCA9D56C08F5D8320 /* Pods-Top RegionsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Top RegionsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0A57F597F85066AE7AD356210E8958A6 /* EKSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKSerializer.m; path = EasyMapping/EKSerializer.m; sourceTree = "<group>"; };
+		0BA205753EC3B68BFB41F729E0B051FA /* EKSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKSerializer.h; path = EasyMapping/EKSerializer.h; sourceTree = "<group>"; };
+		1027D9CD170C1A285F26255376696AF6 /* EKManagedObjectMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectMapper.m; path = EasyMapping/EKManagedObjectMapper.m; sourceTree = "<group>"; };
+		1274B583E6CA10C49E5846B267932FBD /* EKMappingBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKMappingBlocks.m; path = EasyMapping/EKMappingBlocks.m; sourceTree = "<group>"; };
+		161BB79926138FE556C3F27D1463D56E /* EKPropertyMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKPropertyMapping.m; path = EasyMapping/EKPropertyMapping.m; sourceTree = "<group>"; };
+		18458186062D655E29F860DE0C6A0415 /* EasyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EasyMapping.h; path = EasyMapping/EasyMapping.h; sourceTree = "<group>"; };
+		1CEC7A613BF83B5CBBC1BB7E4C557242 /* EKPropertyMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKPropertyMapping.h; path = EasyMapping/EKPropertyMapping.h; sourceTree = "<group>"; };
+		204D671AD0375A51C42F091FBE20FF7E /* Pods-Top RegionsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Top RegionsUITests-resources.sh"; sourceTree = "<group>"; };
+		2173056C29CEDE47C1F3BFFCA5ED4D5E /* Pods-Top Regions-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Top Regions-resources.sh"; sourceTree = "<group>"; };
+		234FA5CB99DED631BE4699B06876F64A /* libEasyMapping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyMapping.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B66008193C747484A1135540D24727C /* Pods-Top RegionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Top RegionsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D817B7DD7D9884A389FA0869DBBEDA4 /* libPods-Top Regions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Top Regions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9F2CE898010DF5A94E57977B41101A /* libPods-Top RegionsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Top RegionsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30EB88526F306B3D51BBF61755AC3DE8 /* Pods-Top RegionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Top RegionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		336837E3D700A168FAA592EE3B79D9F2 /* Pods-Top Regions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Top Regions.debug.xcconfig"; sourceTree = "<group>"; };
+		46DE8E68A7F351DD5CC558932A94BC5D /* Pods-Top Regions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Top Regions.release.xcconfig"; sourceTree = "<group>"; };
+		497144AC84E7F9F255AA138AF3BF5522 /* Pods-Top RegionsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Top RegionsUITests-dummy.m"; sourceTree = "<group>"; };
+		498E01C41D018FB2F9358DE1177596A0 /* EKCoreDataImporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKCoreDataImporter.m; path = EasyMapping/EKCoreDataImporter.m; sourceTree = "<group>"; };
+		520AFEB9035ABC7EB6E26C5B1DD4CCA2 /* NSArray+FlattenArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+FlattenArray.m"; path = "EasyMapping/NSArray+FlattenArray.m"; sourceTree = "<group>"; };
+		539FC80F95D5E0194F914DB5789D0E8F /* EKMappingBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMappingBlocks.h; path = EasyMapping/EKMappingBlocks.h; sourceTree = "<group>"; };
+		57FFB48DC6997CA1F2CF2BC68D718821 /* Pods-Top RegionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Top RegionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CCD1B9F457E020800F95E37D877DC9F /* EKManagedObjectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectModel.h; path = EasyMapping/EKManagedObjectModel.h; sourceTree = "<group>"; };
+		71F5AE9057A9609D85DBDDA20F977D92 /* EKManagedObjectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectModel.m; path = EasyMapping/EKManagedObjectModel.m; sourceTree = "<group>"; };
+		73A02E690C9E4F3CF68F0D0E01B8FAF2 /* EKPropertyHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKPropertyHelper.m; path = EasyMapping/EKPropertyHelper.m; sourceTree = "<group>"; };
+		753844429B5E673588F39E434BB9AA21 /* Pods-Top RegionsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Top RegionsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		795ECCC39D856C56910D347D5FDC69A1 /* Pods-Top Regions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Top Regions-dummy.m"; sourceTree = "<group>"; };
+		7C5C044D31C87F50B38B9A0CA3860B13 /* EKManagedObjectMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapper.h; path = EasyMapping/EKManagedObjectMapper.h; sourceTree = "<group>"; };
+		7EC52489D52AB93CBED310B29C20EFCF /* EKRelationshipMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKRelationshipMapping.h; path = EasyMapping/EKRelationshipMapping.h; sourceTree = "<group>"; };
+		83BD8DB48B9ECA013FB752270C1E21F4 /* Pods-Top RegionsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Top RegionsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		841FED77E4F163CDA6A639CEA8C622C3 /* Pods-Top Regions-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Top Regions-frameworks.sh"; sourceTree = "<group>"; };
+		8A3180C26F8469C64D788C2E8A0FA645 /* NSDateFormatter+EasyMappingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+EasyMappingAdditions.m"; path = "EasyMapping/NSDateFormatter+EasyMappingAdditions.m"; sourceTree = "<group>"; };
+		8B7F37ADCD1E606FD1E239E6BD697C8A /* EKRelationshipMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKRelationshipMapping.m; path = EasyMapping/EKRelationshipMapping.m; sourceTree = "<group>"; };
+		8BB2E124B6CF82464635D2BC86E8C9AA /* Pods-Top RegionsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Top RegionsTests-dummy.m"; sourceTree = "<group>"; };
+		8C661E3A60AE3FFE18B1052C513E0CDA /* Pods-Top RegionsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Top RegionsTests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		978E91E5FB7E58B87A4658706379F5CF /* EasyMapping-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyMapping-prefix.pch"; sourceTree = "<group>"; };
+		9BCF36669D6E987B1A5E32F63210B0A8 /* EKObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKObjectMapping.h; path = EasyMapping/EKObjectMapping.h; sourceTree = "<group>"; };
+		9CDF9463B56C1B7CB7F3EDBEF6AE7D35 /* Pods-Top Regions-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Top Regions-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A10B4993C773BC9739DAA69D5BCC4F13 /* EasyMapping.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyMapping.xcconfig; sourceTree = "<group>"; };
+		B5E12683CAB3AFAD0F803F350A6E11E8 /* EKCoreDataImporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKCoreDataImporter.h; path = EasyMapping/EKCoreDataImporter.h; sourceTree = "<group>"; };
+		B72CD075B091293F8FB2FCA5905DAD6D /* Pods-Top RegionsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Top RegionsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA27EF0B067E09B1F04118EBEFD409A4 /* EKMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKMapper.m; path = EasyMapping/EKMapper.m; sourceTree = "<group>"; };
+		BD75A1CEA259C2D88DC12879E6D9B1D7 /* NSDateFormatter+EasyMappingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+EasyMappingAdditions.h"; path = "EasyMapping/NSDateFormatter+EasyMappingAdditions.h"; sourceTree = "<group>"; };
+		BF38CDBC8539CB8218BBB214CE011F0F /* Pods-Top RegionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Top RegionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		C727ADD01609F7022D8373B0D4E8344E /* libPods-Top RegionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Top RegionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07389E2A49322AA4B20E3817DD9B326 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0AE75B76640180CF62BF45B6746929E /* EKPropertyHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKPropertyHelper.h; path = EasyMapping/EKPropertyHelper.h; sourceTree = "<group>"; };
+		DAA2C2730B000A4D4DD57AEEEAC8D971 /* EKObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKObjectMapping.m; path = EasyMapping/EKObjectMapping.m; sourceTree = "<group>"; };
+		DE838C3BEB44C89B5106CD93B06FC9B0 /* EKMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMapper.h; path = EasyMapping/EKMapper.h; sourceTree = "<group>"; };
+		E20B4033AF48174F385F5FD6549516DE /* EKMappingProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKMappingProtocol.h; path = EasyMapping/EKMappingProtocol.h; sourceTree = "<group>"; };
+		E2558EA15289DC1E00654F0D849FC12B /* EasyMapping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyMapping-dummy.m"; sourceTree = "<group>"; };
+		E52EA91F94361553A288B7B6996E116B /* EKManagedObjectMapping.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKManagedObjectMapping.m; path = EasyMapping/EKManagedObjectMapping.m; sourceTree = "<group>"; };
+		E60D025CE603B128E8C61A4C71388E23 /* Pods-Top RegionsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Top RegionsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7B55C73D8E2C057A47EC174E3341109 /* EKObjectModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKObjectModel.h; path = EasyMapping/EKObjectModel.h; sourceTree = "<group>"; };
+		F2D46735586E7FD4E0426F27848FEBDC /* NSArray+FlattenArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+FlattenArray.h"; path = "EasyMapping/NSArray+FlattenArray.h"; sourceTree = "<group>"; };
+		F39A5E0943870FC6851BF7C25AA0BA8A /* EKObjectModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EKObjectModel.m; path = EasyMapping/EKObjectModel.m; sourceTree = "<group>"; };
+		F6162843865187720BF9463B618C6C62 /* Pods-Top RegionsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Top RegionsTests-resources.sh"; sourceTree = "<group>"; };
+		F62877F6F8B2EC922EE9414A5FFAFFC1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		F63718DA51B10F9D8C0075D81A6E92B9 /* EKManagedObjectMapping.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EKManagedObjectMapping.h; path = EasyMapping/EKManagedObjectMapping.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51E9FF490654D4F5BC16A1F7E983923D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C659E610C5A5D4D1740F90516B6CF6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92938489308BE4B9F647E044BCE9951D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343F854FFEEEE0D400795E65BC4C338D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADDDB5E06F3FC6634964160B830743C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277037C3A15C8F95FAC8C6DADE2FB347 /* CoreData.framework in Frameworks */,
+				19649882582AA89D75B6AF38E9EE8CE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC96B9DB2F791BFDA3A244C640583FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F77B635DEDE874499C446EA77600D83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0976F3520E251487F41983CB916A1AF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2332D5699FCE5C2EDA70DB5AEC8A65E /* Pods-Top Regions */,
+				0FE523A8548F7DBE3B4F1E3E20B0DD94 /* Pods-Top RegionsTests */,
+				C928DE0F7387F7E1DB407C0F9ADDD3BE /* Pods-Top RegionsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0DF4762610F7E329169EAAE4D883C404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				234FA5CB99DED631BE4699B06876F64A /* libEasyMapping.a */,
+				2D817B7DD7D9884A389FA0869DBBEDA4 /* libPods-Top Regions.a */,
+				C727ADD01609F7022D8373B0D4E8344E /* libPods-Top RegionsTests.a */,
+				2D9F2CE898010DF5A94E57977B41101A /* libPods-Top RegionsUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FE523A8548F7DBE3B4F1E3E20B0DD94 /* Pods-Top RegionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				83BD8DB48B9ECA013FB752270C1E21F4 /* Pods-Top RegionsTests-acknowledgements.markdown */,
+				B72CD075B091293F8FB2FCA5905DAD6D /* Pods-Top RegionsTests-acknowledgements.plist */,
+				8BB2E124B6CF82464635D2BC86E8C9AA /* Pods-Top RegionsTests-dummy.m */,
+				8C661E3A60AE3FFE18B1052C513E0CDA /* Pods-Top RegionsTests-frameworks.sh */,
+				F6162843865187720BF9463B618C6C62 /* Pods-Top RegionsTests-resources.sh */,
+				30EB88526F306B3D51BBF61755AC3DE8 /* Pods-Top RegionsTests.debug.xcconfig */,
+				BF38CDBC8539CB8218BBB214CE011F0F /* Pods-Top RegionsTests.release.xcconfig */,
+			);
+			name = "Pods-Top RegionsTests";
+			path = "Target Support Files/Pods-Top RegionsTests";
+			sourceTree = "<group>";
+		};
+		21D2BE373EB6AA00E4CA2E0C3982ACE1 /* EasyMapping */ = {
+			isa = PBXGroup;
+			children = (
+				89B19AF971FCAA236E95359C90BA89C0 /* Core */,
+				C11FA680CE8EC346E36F0E6B07406146 /* Support Files */,
+			);
+			path = EasyMapping;
+			sourceTree = "<group>";
+		};
+		358A47F298495ABEFCCA59BDA38EBD55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21D2BE373EB6AA00E4CA2E0C3982ACE1 /* EasyMapping */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				456545A12F33492FB25F7F125EF7F5C0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		456545A12F33492FB25F7F125EF7F5C0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F62877F6F8B2EC922EE9414A5FFAFFC1 /* CoreData.framework */,
+				D07389E2A49322AA4B20E3817DD9B326 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				358A47F298495ABEFCCA59BDA38EBD55 /* Pods */,
+				0DF4762610F7E329169EAAE4D883C404 /* Products */,
+				0976F3520E251487F41983CB916A1AF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89B19AF971FCAA236E95359C90BA89C0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				18458186062D655E29F860DE0C6A0415 /* EasyMapping.h */,
+				B5E12683CAB3AFAD0F803F350A6E11E8 /* EKCoreDataImporter.h */,
+				498E01C41D018FB2F9358DE1177596A0 /* EKCoreDataImporter.m */,
+				7C5C044D31C87F50B38B9A0CA3860B13 /* EKManagedObjectMapper.h */,
+				1027D9CD170C1A285F26255376696AF6 /* EKManagedObjectMapper.m */,
+				F63718DA51B10F9D8C0075D81A6E92B9 /* EKManagedObjectMapping.h */,
+				E52EA91F94361553A288B7B6996E116B /* EKManagedObjectMapping.m */,
+				5CCD1B9F457E020800F95E37D877DC9F /* EKManagedObjectModel.h */,
+				71F5AE9057A9609D85DBDDA20F977D92 /* EKManagedObjectModel.m */,
+				DE838C3BEB44C89B5106CD93B06FC9B0 /* EKMapper.h */,
+				BA27EF0B067E09B1F04118EBEFD409A4 /* EKMapper.m */,
+				539FC80F95D5E0194F914DB5789D0E8F /* EKMappingBlocks.h */,
+				1274B583E6CA10C49E5846B267932FBD /* EKMappingBlocks.m */,
+				E20B4033AF48174F385F5FD6549516DE /* EKMappingProtocol.h */,
+				9BCF36669D6E987B1A5E32F63210B0A8 /* EKObjectMapping.h */,
+				DAA2C2730B000A4D4DD57AEEEAC8D971 /* EKObjectMapping.m */,
+				E7B55C73D8E2C057A47EC174E3341109 /* EKObjectModel.h */,
+				F39A5E0943870FC6851BF7C25AA0BA8A /* EKObjectModel.m */,
+				D0AE75B76640180CF62BF45B6746929E /* EKPropertyHelper.h */,
+				73A02E690C9E4F3CF68F0D0E01B8FAF2 /* EKPropertyHelper.m */,
+				1CEC7A613BF83B5CBBC1BB7E4C557242 /* EKPropertyMapping.h */,
+				161BB79926138FE556C3F27D1463D56E /* EKPropertyMapping.m */,
+				7EC52489D52AB93CBED310B29C20EFCF /* EKRelationshipMapping.h */,
+				8B7F37ADCD1E606FD1E239E6BD697C8A /* EKRelationshipMapping.m */,
+				0BA205753EC3B68BFB41F729E0B051FA /* EKSerializer.h */,
+				0A57F597F85066AE7AD356210E8958A6 /* EKSerializer.m */,
+				F2D46735586E7FD4E0426F27848FEBDC /* NSArray+FlattenArray.h */,
+				520AFEB9035ABC7EB6E26C5B1DD4CCA2 /* NSArray+FlattenArray.m */,
+				BD75A1CEA259C2D88DC12879E6D9B1D7 /* NSDateFormatter+EasyMappingAdditions.h */,
+				8A3180C26F8469C64D788C2E8A0FA645 /* NSDateFormatter+EasyMappingAdditions.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C11FA680CE8EC346E36F0E6B07406146 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A10B4993C773BC9739DAA69D5BCC4F13 /* EasyMapping.xcconfig */,
+				E2558EA15289DC1E00654F0D849FC12B /* EasyMapping-dummy.m */,
+				978E91E5FB7E58B87A4658706379F5CF /* EasyMapping-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EasyMapping";
+			sourceTree = "<group>";
+		};
+		C928DE0F7387F7E1DB407C0F9ADDD3BE /* Pods-Top RegionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E60D025CE603B128E8C61A4C71388E23 /* Pods-Top RegionsUITests-acknowledgements.markdown */,
+				096FAD949C9E9CACCA9D56C08F5D8320 /* Pods-Top RegionsUITests-acknowledgements.plist */,
+				497144AC84E7F9F255AA138AF3BF5522 /* Pods-Top RegionsUITests-dummy.m */,
+				753844429B5E673588F39E434BB9AA21 /* Pods-Top RegionsUITests-frameworks.sh */,
+				204D671AD0375A51C42F091FBE20FF7E /* Pods-Top RegionsUITests-resources.sh */,
+				57FFB48DC6997CA1F2CF2BC68D718821 /* Pods-Top RegionsUITests.debug.xcconfig */,
+				2B66008193C747484A1135540D24727C /* Pods-Top RegionsUITests.release.xcconfig */,
+			);
+			name = "Pods-Top RegionsUITests";
+			path = "Target Support Files/Pods-Top RegionsUITests";
+			sourceTree = "<group>";
+		};
+		D2332D5699FCE5C2EDA70DB5AEC8A65E /* Pods-Top Regions */ = {
+			isa = PBXGroup;
+			children = (
+				9CDF9463B56C1B7CB7F3EDBEF6AE7D35 /* Pods-Top Regions-acknowledgements.markdown */,
+				024A2FD98D0E5772563E3EA31E561E18 /* Pods-Top Regions-acknowledgements.plist */,
+				795ECCC39D856C56910D347D5FDC69A1 /* Pods-Top Regions-dummy.m */,
+				841FED77E4F163CDA6A639CEA8C622C3 /* Pods-Top Regions-frameworks.sh */,
+				2173056C29CEDE47C1F3BFFCA5ED4D5E /* Pods-Top Regions-resources.sh */,
+				336837E3D700A168FAA592EE3B79D9F2 /* Pods-Top Regions.debug.xcconfig */,
+				46DE8E68A7F351DD5CC558932A94BC5D /* Pods-Top Regions.release.xcconfig */,
+			);
+			name = "Pods-Top Regions";
+			path = "Target Support Files/Pods-Top Regions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AE957951D823A3AD5B6ECBA4322832F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7A6B69B42BD8ECF847953771874867 /* EasyMapping.h in Headers */,
+				99285B90E8E2E708D8376FB6AF45B2EC /* EKCoreDataImporter.h in Headers */,
+				5A7926399E0E308B2835A5A4B8024171 /* EKManagedObjectMapper.h in Headers */,
+				C8469E9116AD459E62ADC4BC3405022C /* EKManagedObjectMapping.h in Headers */,
+				AE13EC81DAD45D89C56E7B8121F28603 /* EKManagedObjectModel.h in Headers */,
+				F00EA86C50B2FD68DA9E253777E6A4AA /* EKMapper.h in Headers */,
+				398EC78FBB8D8D805A22EAB570114780 /* EKMappingBlocks.h in Headers */,
+				84D1B7587986132BB1A8A395E8DA8F91 /* EKMappingProtocol.h in Headers */,
+				FBDCBE90303F2F06337BCC99FD131C95 /* EKObjectMapping.h in Headers */,
+				4FD8CC75CC08FE908921E920418E4126 /* EKObjectModel.h in Headers */,
+				6521154479E63E7EF99BC9D05E8B3E5A /* EKPropertyHelper.h in Headers */,
+				7E6AB984CBB7AC131AF92452C44FC24D /* EKPropertyMapping.h in Headers */,
+				19E6269A73F4031A7B578CE49D06D485 /* EKRelationshipMapping.h in Headers */,
+				55B1E6A6AA6C4E5DED0DBD1BB8953DE5 /* EKSerializer.h in Headers */,
+				F7925AC78D37B79AD4999362E01F3F43 /* NSArray+FlattenArray.h in Headers */,
+				6E8CD994663694A4CE2ABB0A78103D6A /* NSDateFormatter+EasyMappingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1340C06DE4C973DD439AABC4450606D2 /* Pods-Top RegionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C89D2082ED6EEB18E39B401A88F4FA /* Build configuration list for PBXNativeTarget "Pods-Top RegionsUITests" */;
+			buildPhases = (
+				4E94642895B7390549C7073DB764DC43 /* Sources */,
+				51E9FF490654D4F5BC16A1F7E983923D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Top RegionsUITests";
+			productName = "Pods-Top RegionsUITests";
+			productReference = 2D9F2CE898010DF5A94E57977B41101A /* libPods-Top RegionsUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		70CC31F61CE8EA5D2FF377A75DB3CE9C /* Pods-Top Regions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49B6B161F53D1AB2641D97CCA4CF3980 /* Build configuration list for PBXNativeTarget "Pods-Top Regions" */;
+			buildPhases = (
+				C4968B069479B168541C3196FDCA6317 /* Sources */,
+				92938489308BE4B9F647E044BCE9951D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3D79C99A4EE68816E143855257A6EEA /* PBXTargetDependency */,
+			);
+			name = "Pods-Top Regions";
+			productName = "Pods-Top Regions";
+			productReference = 2D817B7DD7D9884A389FA0869DBBEDA4 /* libPods-Top Regions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A2E05A0C7C78129DB49F196AC887F39D /* Pods-Top RegionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 068232622BE9DD5DDF0D99637AC80C45 /* Build configuration list for PBXNativeTarget "Pods-Top RegionsTests" */;
+			buildPhases = (
+				68E58A2BA0120496282BCCA6A08414EC /* Sources */,
+				DC96B9DB2F791BFDA3A244C640583FFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEF037E69859CCE55E614645BBF11BDB /* PBXTargetDependency */,
+			);
+			name = "Pods-Top RegionsTests";
+			productName = "Pods-Top RegionsTests";
+			productReference = C727ADD01609F7022D8373B0D4E8344E /* libPods-Top RegionsTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D6775B27F6655DDE6DFBA1564939A3FF /* EasyMapping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E7CB46246537509D6742C3F93C9843 /* Build configuration list for PBXNativeTarget "EasyMapping" */;
+			buildPhases = (
+				F4D24A6A99E90A2AAA35E7895DCAA5C8 /* Sources */,
+				BADDDB5E06F3FC6634964160B830743C /* Frameworks */,
+				AE957951D823A3AD5B6ECBA4322832F4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMapping;
+			productName = EasyMapping;
+			productReference = 234FA5CB99DED631BE4699B06876F64A /* libEasyMapping.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0DF4762610F7E329169EAAE4D883C404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6775B27F6655DDE6DFBA1564939A3FF /* EasyMapping */,
+				70CC31F61CE8EA5D2FF377A75DB3CE9C /* Pods-Top Regions */,
+				A2E05A0C7C78129DB49F196AC887F39D /* Pods-Top RegionsTests */,
+				1340C06DE4C973DD439AABC4450606D2 /* Pods-Top RegionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E94642895B7390549C7073DB764DC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B75CC71A9FE31FEC993EAA6DAB0F33F3 /* Pods-Top RegionsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E58A2BA0120496282BCCA6A08414EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AC6B2BB0AD0E0E6BDEB1F056243B147 /* Pods-Top RegionsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4968B069479B168541C3196FDCA6317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A03970522B15263B38698A38E9A0257 /* Pods-Top Regions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D24A6A99E90A2AAA35E7895DCAA5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91D23DFE1E3CF67C7922E82DB58A43F0 /* EasyMapping-dummy.m in Sources */,
+				AB5298F088EA363A93562E66521D8C78 /* EKCoreDataImporter.m in Sources */,
+				1D5B1427310E9B2CE643309DD319E5EC /* EKManagedObjectMapper.m in Sources */,
+				CA6D9BA11A93FFC713EDD6987AF9162B /* EKManagedObjectMapping.m in Sources */,
+				2C084B6D55C046E798AB241DC1BC2BAE /* EKManagedObjectModel.m in Sources */,
+				8A06823BB6BC18547807820D6D2D9058 /* EKMapper.m in Sources */,
+				3732BD924AE19CB68A24BBEB231DB14C /* EKMappingBlocks.m in Sources */,
+				0ED3A0E8B4D044F85B6EAAA8781F24D3 /* EKObjectMapping.m in Sources */,
+				F931B6634F196BAF1B8FEE45F5D03BC5 /* EKObjectModel.m in Sources */,
+				7FD47E2B497C779962E6EFD62E93ABBF /* EKPropertyHelper.m in Sources */,
+				23750C979CFAAC1E51413C449213B8C3 /* EKPropertyMapping.m in Sources */,
+				0AC2DD94FB10D1F34BEAD250C36C623C /* EKRelationshipMapping.m in Sources */,
+				835D10F8053E11933BCCA1B1E13771AE /* EKSerializer.m in Sources */,
+				13D1C4C1D5E3A5406B10A6C127C904FE /* NSArray+FlattenArray.m in Sources */,
+				07947CA3DAA2AF8F718D2A20596C3D6E /* NSDateFormatter+EasyMappingAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEF037E69859CCE55E614645BBF11BDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyMapping;
+			target = D6775B27F6655DDE6DFBA1564939A3FF /* EasyMapping */;
+			targetProxy = C6A56429D6335E2A45A6E5F435D75927 /* PBXContainerItemProxy */;
+		};
+		E3D79C99A4EE68816E143855257A6EEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyMapping;
+			target = D6775B27F6655DDE6DFBA1564939A3FF /* EasyMapping */;
+			targetProxy = 3A2BD121AAF8056ED0BB91EE886190AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1FA2247ADAAA8F031A57479DE78678A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30EB88526F306B3D51BBF61755AC3DE8 /* Pods-Top RegionsTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2095F7EFB2107951B25C15B18C15B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336837E3D700A168FAA592EE3B79D9F2 /* Pods-Top Regions.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3A13D9DB56807B9DA002266C7411B88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10B4993C773BC9739DAA69D5BCC4F13 /* EasyMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyMapping/EasyMapping-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D3D765854C4E5101680224C28E1D856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B66008193C747484A1135540D24727C /* Pods-Top RegionsUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4A658283474D4A781B5873F46FF8DC72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10B4993C773BC9739DAA69D5BCC4F13 /* EasyMapping.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyMapping/EasyMapping-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5234311119CD48C9E85862A90FBA915A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FFB48DC6997CA1F2CF2BC68D718821 /* Pods-Top RegionsUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD5141DE07592A40FDE13D3C89FD1404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF38CDBC8539CB8218BBB214CE011F0F /* Pods-Top RegionsTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E5C07DD09783CC2D5D055E4C75517D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46DE8E68A7F351DD5CC558932A94BC5D /* Pods-Top Regions.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		068232622BE9DD5DDF0D99637AC80C45 /* Build configuration list for PBXNativeTarget "Pods-Top RegionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FA2247ADAAA8F031A57479DE78678A6 /* Debug */,
+				DD5141DE07592A40FDE13D3C89FD1404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49B6B161F53D1AB2641D97CCA4CF3980 /* Build configuration list for PBXNativeTarget "Pods-Top Regions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2095F7EFB2107951B25C15B18C15B1DF /* Debug */,
+				E5C07DD09783CC2D5D055E4C75517D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C89D2082ED6EEB18E39B401A88F4FA /* Build configuration list for PBXNativeTarget "Pods-Top RegionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5234311119CD48C9E85862A90FBA915A /* Debug */,
+				3D3D765854C4E5101680224C28E1D856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E7CB46246537509D6742C3F93C9843 /* Build configuration list for PBXNativeTarget "EasyMapping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A658283474D4A781B5873F46FF8DC72 /* Debug */,
+				3A13D9DB56807B9DA002266C7411B88F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

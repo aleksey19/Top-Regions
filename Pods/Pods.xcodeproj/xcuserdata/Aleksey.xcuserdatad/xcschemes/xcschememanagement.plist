@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>EasyMapping.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Top Regions.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Top RegionsTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Top RegionsUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1340C06DE4C973DD439AABC4450606D2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>70CC31F61CE8EA5D2FF377A75DB3CE9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A2E05A0C7C78129DB49F196AC887F39D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D6775B27F6655DDE6DFBA1564939A3FF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

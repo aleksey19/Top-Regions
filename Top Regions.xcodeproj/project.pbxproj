@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E6BC18B3BA232FFD022AAC8 /* libPods-Top RegionsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C0F96FB16F719F8D79E50E /* libPods-Top RegionsTests.a */; };
+		5B07685F1D5B9F8A0075ECD6 /* DBRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B07685E1D5B9F8A0075ECD6 /* DBRequestManager.m */; };
+		5B0768681D5BB3E10075ECD6 /* Photo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0768611D5BB3E10075ECD6 /* Photo+CoreDataProperties.m */; };
+		5B0768691D5BB3E10075ECD6 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0768631D5BB3E10075ECD6 /* Photo.m */; };
+		5B07686A1D5BB3E10075ECD6 /* Region+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0768651D5BB3E10075ECD6 /* Region+CoreDataProperties.m */; };
+		5B07686B1D5BB3E10075ECD6 /* Region.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0768671D5BB3E10075ECD6 /* Region.m */; };
+		5B1C70091D4FD1DB0034FC8B /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C70081D4FD1DB0034FC8B /* FlickrFetcher.m */; };
+		5B1C700E1D4FD3C30034FC8B /* TopRegionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C700D1D4FD3C30034FC8B /* TopRegionsController.m */; };
+		5B1C70371D4FD8060034FC8B /* TopRegions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5B1C70351D4FD8060034FC8B /* TopRegions.xcdatamodeld */; };
+		5B38DB281D59DD7E002DF443 /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38DB271D59DD7E002DF443 /* CoreDataController.m */; };
+		5B4B2A531D395F840059A1AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B2A521D395F840059A1AA /* main.m */; };
+		5B4B2A561D395F840059A1AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B2A551D395F840059A1AA /* AppDelegate.m */; };
+		5B4B2A591D395F840059A1AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B2A581D395F840059A1AA /* ViewController.m */; };
+		5B4B2A5C1D395F840059A1AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B2A5A1D395F840059A1AA /* Main.storyboard */; };
+		5B4B2A5E1D395F840059A1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B2A5D1D395F840059A1AA /* Assets.xcassets */; };
+		5B4B2A611D395F840059A1AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B2A5F1D395F840059A1AA /* LaunchScreen.storyboard */; };
+		5B4B2A6C1D395F840059A1AA /* Top_RegionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B2A6B1D395F840059A1AA /* Top_RegionsTests.m */; };
+		5B4B2A771D395F840059A1AA /* Top_RegionsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B2A761D395F840059A1AA /* Top_RegionsUITests.m */; };
+		908EF22ADA5BC9520F76F0D8 /* libPods-Top Regions.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5464C61F3F39760990F46BA /* libPods-Top Regions.a */; };
+		FBF99BDFB6834D2E943EEA82 /* libPods-Top RegionsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55B96F5DE275C20A31BF7667 /* libPods-Top RegionsUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B4B2A681D395F840059A1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4B2A461D395F840059A1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4B2A4D1D395F840059A1AA;
+			remoteInfo = "Top Regions";
+		};
+		5B4B2A731D395F840059A1AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4B2A461D395F840059A1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4B2A4D1D395F840059A1AA;
+			remoteInfo = "Top Regions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39137EF461C34336094F23DF /* Pods-Top RegionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top RegionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Top RegionsTests/Pods-Top RegionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55B96F5DE275C20A31BF7667 /* libPods-Top RegionsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Top RegionsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B07685D1D5B9F8A0075ECD6 /* DBRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBRequestManager.h; path = "Model/DB Request Manager/DBRequestManager.h"; sourceTree = "<group>"; };
+		5B07685E1D5B9F8A0075ECD6 /* DBRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBRequestManager.m; path = "Model/DB Request Manager/DBRequestManager.m"; sourceTree = "<group>"; };
+		5B0768601D5BB3E10075ECD6 /* Photo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Photo+CoreDataProperties.h"; path = "Model/Entities/Photo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		5B0768611D5BB3E10075ECD6 /* Photo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Photo+CoreDataProperties.m"; path = "Model/Entities/Photo+CoreDataProperties.m"; sourceTree = "<group>"; };
+		5B0768621D5BB3E10075ECD6 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Photo.h; path = Model/Entities/Photo.h; sourceTree = "<group>"; };
+		5B0768631D5BB3E10075ECD6 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Photo.m; path = Model/Entities/Photo.m; sourceTree = "<group>"; };
+		5B0768641D5BB3E10075ECD6 /* Region+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Region+CoreDataProperties.h"; path = "Model/Entities/Region+CoreDataProperties.h"; sourceTree = "<group>"; };
+		5B0768651D5BB3E10075ECD6 /* Region+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Region+CoreDataProperties.m"; path = "Model/Entities/Region+CoreDataProperties.m"; sourceTree = "<group>"; };
+		5B0768661D5BB3E10075ECD6 /* Region.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Region.h; path = Model/Entities/Region.h; sourceTree = "<group>"; };
+		5B0768671D5BB3E10075ECD6 /* Region.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Region.m; path = Model/Entities/Region.m; sourceTree = "<group>"; };
+		5B1C70061D4FD1DB0034FC8B /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		5B1C70071D4FD1DB0034FC8B /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		5B1C70081D4FD1DB0034FC8B /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		5B1C700C1D4FD3C30034FC8B /* TopRegionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopRegionsController.h; path = "Controller/Top Regions/TopRegionsController.h"; sourceTree = "<group>"; };
+		5B1C700D1D4FD3C30034FC8B /* TopRegionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopRegionsController.m; path = "Controller/Top Regions/TopRegionsController.m"; sourceTree = "<group>"; };
+		5B1C70361D4FD8060034FC8B /* TopRegions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopRegions.xcdatamodel; sourceTree = "<group>"; };
+		5B38DB261D59DD7E002DF443 /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataController.h; path = "Model/Core Data Stack/CoreDataController.h"; sourceTree = "<group>"; };
+		5B38DB271D59DD7E002DF443 /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataController.m; path = "Model/Core Data Stack/CoreDataController.m"; sourceTree = "<group>"; };
+		5B4B2A4E1D395F840059A1AA /* Top Regions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Top Regions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4B2A521D395F840059A1AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B4B2A541D395F840059A1AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B4B2A551D395F840059A1AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B4B2A571D395F840059A1AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B4B2A581D395F840059A1AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B4B2A5B1D395F840059A1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B4B2A5D1D395F840059A1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B4B2A601D395F840059A1AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B4B2A621D395F840059A1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4B2A671D395F840059A1AA /* Top RegionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top RegionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4B2A6B1D395F840059A1AA /* Top_RegionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Top_RegionsTests.m; sourceTree = "<group>"; };
+		5B4B2A6D1D395F840059A1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4B2A721D395F840059A1AA /* Top RegionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top RegionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4B2A761D395F840059A1AA /* Top_RegionsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Top_RegionsUITests.m; sourceTree = "<group>"; };
+		5B4B2A781D395F840059A1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B3534FF4191719C093F142C /* Pods-Top Regions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top Regions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Top Regions/Pods-Top Regions.debug.xcconfig"; sourceTree = "<group>"; };
+		AA59E22AF2759CB65887736E /* Pods-Top RegionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top RegionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Top RegionsTests/Pods-Top RegionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D5464C61F3F39760990F46BA /* libPods-Top Regions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Top Regions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCE81FE4A2110BFB8DA7CF80 /* Pods-Top RegionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top RegionsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Top RegionsUITests/Pods-Top RegionsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD4C294787FB10D2259AC1A5 /* Pods-Top Regions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top Regions.release.xcconfig"; path = "Pods/Target Support Files/Pods-Top Regions/Pods-Top Regions.release.xcconfig"; sourceTree = "<group>"; };
+		E4C0F96FB16F719F8D79E50E /* libPods-Top RegionsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Top RegionsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5403A63A83B11B4B3F63BB5 /* Pods-Top RegionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Top RegionsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Top RegionsUITests/Pods-Top RegionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4B2A4B1D395F840059A1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908EF22ADA5BC9520F76F0D8 /* libPods-Top Regions.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B2A641D395F840059A1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6BC18B3BA232FFD022AAC8 /* libPods-Top RegionsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B2A6F1D395F840059A1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF99BDFB6834D2E943EEA82 /* libPods-Top RegionsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B0768531D5B9C8C0075ECD6 /* DB Request Manager */ = {
+			isa = PBXGroup;
+			children = (
+				5B07685D1D5B9F8A0075ECD6 /* DBRequestManager.h */,
+				5B07685E1D5B9F8A0075ECD6 /* DBRequestManager.m */,
+			);
+			name = "DB Request Manager";
+			sourceTree = "<group>";
+		};
+		5B1C6FFC1D4FD0EF0034FC8B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C700B1D4FD39A0034FC8B /* Top Regions */,
+				5B4B2A571D395F840059A1AA /* ViewController.h */,
+				5B4B2A581D395F840059A1AA /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5B1C6FFD1D4FD0F70034FC8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B0768531D5B9C8C0075ECD6 /* DB Request Manager */,
+				5B38DB251D59DD2E002DF443 /* Core Data Stack */,
+				5B1C70351D4FD8060034FC8B /* TopRegions.xcdatamodeld */,
+				5B1C700A1D4FD29E0034FC8B /* Entities */,
+				5B1C70051D4FD1DB0034FC8B /* Flickr Fetcher */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5B1C6FFE1D4FD0FC0034FC8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B2A5A1D395F840059A1AA /* Main.storyboard */,
+				5B4B2A5F1D395F840059A1AA /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5B1C70051D4FD1DB0034FC8B /* Flickr Fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C70061D4FD1DB0034FC8B /* FlickrAPIKey.h */,
+				5B1C70071D4FD1DB0034FC8B /* FlickrFetcher.h */,
+				5B1C70081D4FD1DB0034FC8B /* FlickrFetcher.m */,
+			);
+			name = "Flickr Fetcher";
+			path = "Model/Flickr Fetcher";
+			sourceTree = "<group>";
+		};
+		5B1C700A1D4FD29E0034FC8B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5B0768601D5BB3E10075ECD6 /* Photo+CoreDataProperties.h */,
+				5B0768611D5BB3E10075ECD6 /* Photo+CoreDataProperties.m */,
+				5B0768621D5BB3E10075ECD6 /* Photo.h */,
+				5B0768631D5BB3E10075ECD6 /* Photo.m */,
+				5B0768641D5BB3E10075ECD6 /* Region+CoreDataProperties.h */,
+				5B0768651D5BB3E10075ECD6 /* Region+CoreDataProperties.m */,
+				5B0768661D5BB3E10075ECD6 /* Region.h */,
+				5B0768671D5BB3E10075ECD6 /* Region.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		5B1C700B1D4FD39A0034FC8B /* Top Regions */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C700C1D4FD3C30034FC8B /* TopRegionsController.h */,
+				5B1C700D1D4FD3C30034FC8B /* TopRegionsController.m */,
+			);
+			name = "Top Regions";
+			sourceTree = "<group>";
+		};
+		5B38DB251D59DD2E002DF443 /* Core Data Stack */ = {
+			isa = PBXGroup;
+			children = (
+				5B38DB261D59DD7E002DF443 /* CoreDataController.h */,
+				5B38DB271D59DD7E002DF443 /* CoreDataController.m */,
+			);
+			name = "Core Data Stack";
+			sourceTree = "<group>";
+		};
+		5B4B2A451D395F840059A1AA = {
+			isa = PBXGroup;
+			children = (
+				5B4B2A501D395F840059A1AA /* Top Regions */,
+				5B4B2A6A1D395F840059A1AA /* Top RegionsTests */,
+				5B4B2A751D395F840059A1AA /* Top RegionsUITests */,
+				5B4B2A4F1D395F840059A1AA /* Products */,
+				7A54BE603F241A4D89268DBD /* Pods */,
+				5CE6459E4C98C959C655B7F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4B2A4F1D395F840059A1AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B2A4E1D395F840059A1AA /* Top Regions.app */,
+				5B4B2A671D395F840059A1AA /* Top RegionsTests.xctest */,
+				5B4B2A721D395F840059A1AA /* Top RegionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4B2A501D395F840059A1AA /* Top Regions */ = {
+			isa = PBXGroup;
+			children = (
+				5B1C6FFE1D4FD0FC0034FC8B /* View */,
+				5B1C6FFD1D4FD0F70034FC8B /* Model */,
+				5B1C6FFC1D4FD0EF0034FC8B /* Controller */,
+				5B4B2A5D1D395F840059A1AA /* Assets.xcassets */,
+				5B4B2A621D395F840059A1AA /* Info.plist */,
+				5B4B2A511D395F840059A1AA /* Supporting Files */,
+			);
+			path = "Top Regions";
+			sourceTree = "<group>";
+		};
+		5B4B2A511D395F840059A1AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B2A541D395F840059A1AA /* AppDelegate.h */,
+				5B4B2A551D395F840059A1AA /* AppDelegate.m */,
+				5B4B2A521D395F840059A1AA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B4B2A6A1D395F840059A1AA /* Top RegionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B2A6B1D395F840059A1AA /* Top_RegionsTests.m */,
+				5B4B2A6D1D395F840059A1AA /* Info.plist */,
+			);
+			path = "Top RegionsTests";
+			sourceTree = "<group>";
+		};
+		5B4B2A751D395F840059A1AA /* Top RegionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B2A761D395F840059A1AA /* Top_RegionsUITests.m */,
+				5B4B2A781D395F840059A1AA /* Info.plist */,
+			);
+			path = "Top RegionsUITests";
+			sourceTree = "<group>";
+		};
+		5CE6459E4C98C959C655B7F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5464C61F3F39760990F46BA /* libPods-Top Regions.a */,
+				E4C0F96FB16F719F8D79E50E /* libPods-Top RegionsTests.a */,
+				55B96F5DE275C20A31BF7667 /* libPods-Top RegionsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A54BE603F241A4D89268DBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B3534FF4191719C093F142C /* Pods-Top Regions.debug.xcconfig */,
+				DD4C294787FB10D2259AC1A5 /* Pods-Top Regions.release.xcconfig */,
+				39137EF461C34336094F23DF /* Pods-Top RegionsTests.debug.xcconfig */,
+				AA59E22AF2759CB65887736E /* Pods-Top RegionsTests.release.xcconfig */,
+				F5403A63A83B11B4B3F63BB5 /* Pods-Top RegionsUITests.debug.xcconfig */,
+				DCE81FE4A2110BFB8DA7CF80 /* Pods-Top RegionsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4B2A4D1D395F840059A1AA /* Top Regions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B2A7B1D395F840059A1AA /* Build configuration list for PBXNativeTarget "Top Regions" */;
+			buildPhases = (
+				8E0AC4EE553B6F04A3A94CF5 /* [CP] Check Pods Manifest.lock */,
+				5B4B2A4A1D395F840059A1AA /* Sources */,
+				5B4B2A4B1D395F840059A1AA /* Frameworks */,
+				5B4B2A4C1D395F840059A1AA /* Resources */,
+				4F2029019BEEBC0FCFD8664F /* [CP] Embed Pods Frameworks */,
+				9FD7E54FE6452F243C3108F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Top Regions";
+			productName = "Top Regions";
+			productReference = 5B4B2A4E1D395F840059A1AA /* Top Regions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B4B2A661D395F840059A1AA /* Top RegionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B2A7E1D395F840059A1AA /* Build configuration list for PBXNativeTarget "Top RegionsTests" */;
+			buildPhases = (
+				79626BA9967DA1C30F93945B /* [CP] Check Pods Manifest.lock */,
+				5B4B2A631D395F840059A1AA /* Sources */,
+				5B4B2A641D395F840059A1AA /* Frameworks */,
+				5B4B2A651D395F840059A1AA /* Resources */,
+				72C59E51083E84568EE3DC25 /* [CP] Embed Pods Frameworks */,
+				AA1BEC40F7AC636E217E63C9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4B2A691D395F840059A1AA /* PBXTargetDependency */,
+			);
+			name = "Top RegionsTests";
+			productName = "Top RegionsTests";
+			productReference = 5B4B2A671D395F840059A1AA /* Top RegionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B4B2A711D395F840059A1AA /* Top RegionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B2A811D395F840059A1AA /* Build configuration list for PBXNativeTarget "Top RegionsUITests" */;
+			buildPhases = (
+				172E5E2DD19472EAB66B3499 /* [CP] Check Pods Manifest.lock */,
+				5B4B2A6E1D395F840059A1AA /* Sources */,
+				5B4B2A6F1D395F840059A1AA /* Frameworks */,
+				5B4B2A701D395F840059A1AA /* Resources */,
+				61FE9F12E0D07CBE8A5CED72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4B2A741D395F840059A1AA /* PBXTargetDependency */,
+			);
+			name = "Top RegionsUITests";
+			productName = "Top RegionsUITests";
+			productReference = 5B4B2A721D395F840059A1AA /* Top RegionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4B2A461D395F840059A1AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aleksey;
+				TargetAttributes = {
+					5B4B2A4D1D395F840059A1AA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5B4B2A661D395F840059A1AA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B4B2A4D1D395F840059A1AA;
+					};
+					5B4B2A711D395F840059A1AA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B4B2A4D1D395F840059A1AA;
+					};
+				};
+			};
+			buildConfigurationList = 5B4B2A491D395F840059A1AA /* Build configuration list for PBXProject "Top Regions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4B2A451D395F840059A1AA;
+			productRefGroup = 5B4B2A4F1D395F840059A1AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4B2A4D1D395F840059A1AA /* Top Regions */,
+				5B4B2A661D395F840059A1AA /* Top RegionsTests */,
+				5B4B2A711D395F840059A1AA /* Top RegionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4B2A4C1D395F840059A1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B2A611D395F840059A1AA /* LaunchScreen.storyboard in Resources */,
+				5B4B2A5E1D395F840059A1AA /* Assets.xcassets in Resources */,
+				5B4B2A5C1D395F840059A1AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B2A651D395F840059A1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B2A701D395F840059A1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		172E5E2DD19472EAB66B3499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F2029019BEEBC0FCFD8664F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top Regions/Pods-Top Regions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61FE9F12E0D07CBE8A5CED72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top RegionsUITests/Pods-Top RegionsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72C59E51083E84568EE3DC25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top RegionsTests/Pods-Top RegionsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79626BA9967DA1C30F93945B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E0AC4EE553B6F04A3A94CF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD7E54FE6452F243C3108F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top Regions/Pods-Top Regions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA1BEC40F7AC636E217E63C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Top RegionsTests/Pods-Top RegionsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4B2A4A1D395F840059A1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B2A591D395F840059A1AA /* ViewController.m in Sources */,
+				5B4B2A561D395F840059A1AA /* AppDelegate.m in Sources */,
+				5B07686A1D5BB3E10075ECD6 /* Region+CoreDataProperties.m in Sources */,
+				5B07686B1D5BB3E10075ECD6 /* Region.m in Sources */,
+				5B1C70091D4FD1DB0034FC8B /* FlickrFetcher.m in Sources */,
+				5B0768681D5BB3E10075ECD6 /* Photo+CoreDataProperties.m in Sources */,
+				5B38DB281D59DD7E002DF443 /* CoreDataController.m in Sources */,
+				5B07685F1D5B9F8A0075ECD6 /* DBRequestManager.m in Sources */,
+				5B1C700E1D4FD3C30034FC8B /* TopRegionsController.m in Sources */,
+				5B4B2A531D395F840059A1AA /* main.m in Sources */,
+				5B0768691D5BB3E10075ECD6 /* Photo.m in Sources */,
+				5B1C70371D4FD8060034FC8B /* TopRegions.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B2A631D395F840059A1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B2A6C1D395F840059A1AA /* Top_RegionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B2A6E1D395F840059A1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B2A771D395F840059A1AA /* Top_RegionsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B4B2A691D395F840059A1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4B2A4D1D395F840059A1AA /* Top Regions */;
+			targetProxy = 5B4B2A681D395F840059A1AA /* PBXContainerItemProxy */;
+		};
+		5B4B2A741D395F840059A1AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4B2A4D1D395F840059A1AA /* Top Regions */;
+			targetProxy = 5B4B2A731D395F840059A1AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B4B2A5A1D395F840059A1AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4B2A5B1D395F840059A1AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B4B2A5F1D395F840059A1AA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4B2A601D395F840059A1AA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4B2A791D395F840059A1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B4B2A7A1D395F840059A1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B4B2A7C1D395F840059A1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B3534FF4191719C093F142C /* Pods-Top Regions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Top Regions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksey.Top-Regions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B4B2A7D1D395F840059A1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4C294787FB10D2259AC1A5 /* Pods-Top Regions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Top Regions/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksey.Top-Regions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B4B2A7F1D395F840059A1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39137EF461C34336094F23DF /* Pods-Top RegionsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Top RegionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksey.Top-RegionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top Regions.app/Top Regions";
+			};
+			name = Debug;
+		};
+		5B4B2A801D395F840059A1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA59E22AF2759CB65887736E /* Pods-Top RegionsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Top RegionsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksey.Top-RegionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Top Regions.app/Top Regions";
+			};
+			name = Release;
+		};
+		5B4B2A821D395F840059A1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5403A63A83B11B4B3F63BB5 /* Pods-Top RegionsUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Top RegionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksey.Top-RegionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Top Regions";
+			};
+			name = Debug;
+		};
+		5B4B2A831D395F840059A1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE81FE4A2110BFB8DA7CF80 /* Pods-Top RegionsUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "Top RegionsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aleksey.Top-RegionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Top Regions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4B2A491D395F840059A1AA /* Build configuration list for PBXProject "Top Regions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B2A791D395F840059A1AA /* Debug */,
+				5B4B2A7A1D395F840059A1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B2A7B1D395F840059A1AA /* Build configuration list for PBXNativeTarget "Top Regions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B2A7C1D395F840059A1AA /* Debug */,
+				5B4B2A7D1D395F840059A1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B2A7E1D395F840059A1AA /* Build configuration list for PBXNativeTarget "Top RegionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B2A7F1D395F840059A1AA /* Debug */,
+				5B4B2A801D395F840059A1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B2A811D395F840059A1AA /* Build configuration list for PBXNativeTarget "Top RegionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B2A821D395F840059A1AA /* Debug */,
+				5B4B2A831D395F840059A1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5B1C70351D4FD8060034FC8B /* TopRegions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5B1C70361D4FD8060034FC8B /* TopRegions.xcdatamodel */,
+			);
+			currentVersion = 5B1C70361D4FD8060034FC8B /* TopRegions.xcdatamodel */;
+			name = TopRegions.xcdatamodeld;
+			path = Model/TopRegions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5B4B2A461D395F840059A1AA /* Project object */;
+}
